@@ -13,7 +13,7 @@ namespace luyentap.Models
         }
 
         public DbSet<Student> Students { get; set; }
-        public DbSet<Sinhvien> SinhViens { get; set; }
+        public DbSet<employee> Employees { get; set; }
 
     }
 }
